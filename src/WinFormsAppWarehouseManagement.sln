@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsAppWarehouseManagement", "WinFormsAppWarehouseManagement\WinFormsAppWarehouseManagement.csproj", "{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAppWareHouseManagementTestProject", "WinFormsAppWareHouseManagementTestProject\WinFormsAppWareHouseManagementTestProject.csproj", "{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF} = {FEE0231E-A12B-4550-9ADF-F78B6303F4FF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE41FBBB-E9AE-4487-A5C0-B653A226D604}
+	EndGlobalSection
+EndGlobal
